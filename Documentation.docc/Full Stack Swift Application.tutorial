@@ -2,13 +2,13 @@
     @Intro(title: "Building an Efficient and Robust Full Stack Application") {
         This tutorial will walk you through building a completely full stack application utilising Swift, to clarify, a complete full stack application consists of a backend server, a frontend web application and then native Apple platform applications such as an iPhone and iPad application.
         
-        @Image(source: <#file#>, alt: "<#accessible description#>")
+<!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
     }
 		
 		@Chapter(name: "Setting Up a Monorepo") {
 			To begin with we need to create an Xcode project that will contain the various components of our complete full stack application.
 			
-			@Image(source: <#file#>, alt: "<#accessible description#>")
+<!--			@Image(source: <#file#>, alt: "<#accessible description#>")-->
 			
 			@TutorialReference(tutorial: "doc:creating-an-xcode-workspace")
 		}
@@ -17,7 +17,7 @@
     @Chapter(name: "A Shared Library") {
 			  This contains common patterns such as models and utilities that are utilised across the front and backend of an application.
         
-        @Image(source: <#file#>, alt: "<#accessible description#>")
+<!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
         
         @TutorialReference(tutorial: "doc:creating-the-package")
 				@TutorialReference(tutorial: "doc:adding-shared-models")
@@ -27,7 +27,7 @@
 		@Chapter(name: "Backend Server") {
 			Built in Swift Hummingbird this part of the application is responsible for dealing with the business logic of the applciation such as creating, editing and deleting data.
 				
-				@Image(source: <#file#>, alt: "<#accessible description#>")
+<!--				@Image(source: <#file#>, alt: "<#accessible description#>")-->
 				
 				@TutorialReference(tutorial: "doc:creating-the-package")
 				@TutorialReference(tutorial: "doc:configuring-the-application")
@@ -38,7 +38,7 @@
 		@Chapter(name: "Frontend Web Application") {
 			Here is where the users can interact with the application via the web, the final rendered page is built using HTML, CSS and JS however development is done with WebUI a Swift DSL for creating modern and performant user interfaces for the web.
 				
-				@Image(source: <#file#>, alt: "<#accessible description#>")
+<!--				@Image(source: <#file#>, alt: "<#accessible description#>")-->
 				
 				@TutorialReference(tutorial: "doc:adding-a-handler")
 				@TutorialReference(tutorial: "doc:laying-out-your-routes")
@@ -48,7 +48,7 @@
 		@Chapter(name: "Universal SwiftUI Application") {
 			Most Apple platforms can be targeted via one build, for certain kinds of apps it is necessary to build a different experience for each device however for simple applications it can be beneficial to create a universal application.
 				
-				@Image(source: <#file#>, alt: "<#accessible description#>")
+<!--				@Image(source: <#file#>, alt: "<#accessible description#>")-->
 				
 				@TutorialReference(tutorial: "doc:creating-the-package")
 				@TutorialReference(tutorial: "doc:building-your-view-components")
@@ -58,7 +58,7 @@
 		@Chapter(name: "Apple Watch Application") {
 			Apple Watches use a different type of user interface and screen size, therefore it is necessary to build the application seperately, this can add some fun individuality to your application that makes it stand out.
 				
-				@Image(source: <#file#>, alt: "<#accessible description#>")
+<!--				@Image(source: <#file#>, alt: "<#accessible description#>")-->
 				
 				@TutorialReference(tutorial: "doc:creating-the-package")
 				@TutorialReference(tutorial: "doc:building-your-view-components")
